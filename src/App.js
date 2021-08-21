@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import Form from "./Form";
-// import HomePage from "./HomePage";
-// import Confirmation from "./Confirmation";
+import HomePage from "./HomePage";
+import Confirmation from "./Confirmation";
 
 const App = () => {
   return (
@@ -22,7 +22,13 @@ const App = () => {
           <Form />
         </Route>
 
-        <Route path="/">{/* <HomePage /> */}</Route>
+        <Route path="/confirmation">
+          <Confirmation />
+        </Route>
+
+        <Route path="/">
+          <HomePage />
+        </Route>
       </Switch>
     </div>
   );

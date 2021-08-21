@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Link } from "react";
 
 const initialFormValues = {
   size: "",
@@ -54,8 +54,7 @@ export default function Form() {
           Special
           <input name="special" value={formValues.special} type="text" />
         </label>
-
-        <button>Create My Pizza!</button>
+        {/* <Link to="/confirmation">Submit Order</Link> */}
       </div>
     </div>
   );
