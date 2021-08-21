@@ -26,27 +26,27 @@ export default function Form() {
         <label>
           Choose Sauce
           <select>
-            <option>12"</option>
-            <option>14"</option>
-            <option>16"</option>
+            <option value="Marinara">Marinara</option>
+            <option value="Alfredo">Alfredo</option>
+            <option value="Honey BBQ">Honey BBQ</option>
           </select>
         </label>
 
         <label>
           Choose Topping
           <select>
-            <option>12"</option>
-            <option>14"</option>
-            <option>16"</option>
+            <option value="Beef">Beef</option>
+            <option value="Beef">Pepperoni</option>
+            <option value="Beef">Bacon</option>
           </select>
         </label>
 
         <label>
           Choose Topping
           <select>
-            <option value="12">12"</option>
-            <option value="14">14"</option>
-            <option value="16">16"</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Hot Buffalo">Hot Buffalo</option>
+            <option value="Jalapeno">Jalapeno</option>
           </select>
         </label>
 
